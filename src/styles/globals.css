@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .blurred-ellipse {
+    --top: 85px;
+    content: "";
+    background: #4b73ff;
+    filter: blur(500px);
+    transform: rotate(19.75deg) translateX(-40%);
+    max-width: 480px;
+    min-width: 200px;
+    width: 40%;
+    height: 1200px;
+    max-height: calc(100% - var(--top));
+    position: absolute;
+    top: var(--top);
+    left: 40%;
+    border-radius: 50%;
+  }
+}
