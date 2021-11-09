@@ -1,29 +1,30 @@
-# Next.js + Tailwind CSS Example
+## Development Test
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+[Link Vercel](https://piclab.chalosalvador.vercel.app/)
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+[PicLab Design](https://www.figma.com/file/oLfcvrrm9KnZFygdhlnJQL/PicLab-Design?node-id=0%3A1)
 
-## Preview
+Please develop the 'full homepage' you see using
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+- TailwindCSS
+- Next.js
+- Vercel
+- Prismic (Headless CMS)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## CSS/JS Imports
 
-## Deploy your own
+- Idlewild CSS
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+  `https://cloud.typography.com/6929016/7418832/css/fonts.css`
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- Inter CSS
 
-## How to use
+  `https://rsms.me/inter/inter.css`
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+- FontAwesome JS
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+  `https://kit.fontawesome.com/117bcfe378.js`
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## What we expect
+
+Use Tech stack that is mentioned and have it completed by due date.
