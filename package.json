@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next start",
     "prepare": "husky install",
-    "lint": "eslint lint"
+    "lint": "eslint ./src"
   },
   "dependencies": {
     "eslint-plugin-prettier": "^4.0.0",
@@ -25,6 +25,6 @@
     "tailwindcss": "^2.2.4"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "src/*": ["prettier --write --ignore-unknown", "eslint"]
   }
 }
