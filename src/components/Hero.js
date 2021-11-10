@@ -28,7 +28,13 @@ const Hero = () => {
 
       <div className="w-full sm:w-2/4 md:2/3 relative opacity-30 sm:opacity-100">
         <div className="absolute overflow-y-hidden h-full">
-          <Image src={bgHero} width={1252} height={695} layout="fixed" />
+          <Image
+            src={bgHero}
+            width={1252}
+            height={695}
+            layout="fixed"
+            alt="PICLAB"
+          />
         </div>
       </div>
     </div>
