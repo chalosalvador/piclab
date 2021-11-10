@@ -1,9 +1,11 @@
 import Image from "next/image";
 import bgHero from "../../public/images/bg-hero.png";
+import { useState } from "react";
 
 const Hero = () => {
+  const [s, setS] = useState();
   return (
-    <div className="flex" style={{ height: 695 }}>
+    <div className="flex h-hero">
       <div className="pl-8 md:pl-14 lg:pl-16 w-full sm:w-2/4 md:w-1/3 absolute sm:relative z-10 bg-red bg-opacity-60 sm:bg-transparent flex flex-col justify-evenly h-full">
         <div>
           <span className="px-2 py-1 font-medium rounded-md border font-idlewild text-tiny text-green border-green">
