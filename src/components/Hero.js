@@ -10,7 +10,7 @@ const Hero = () => {
             Coming summer 2021
           </span>
 
-          <div className="text-white text-xl mt-4">
+          <div className="text-white text-lg sm:text-xl mt-4">
             Powerful image <br />{" "}
             <span className="font-semibold">asset management</span>
             <br /> for everyone.
