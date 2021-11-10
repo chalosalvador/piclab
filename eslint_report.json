@@ -1,0 +1,64 @@
+[
+  {
+    "filePath": "/Users/chalosalvador/Desktop/front-end/src/components/Hero.js",
+    "messages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "/Users/chalosalvador/Desktop/front-end/src/pages/_app.js",
+    "messages": [
+      {
+        "ruleId": "@next/next/no-img-element",
+        "severity": 1,
+        "message": "Do not use <img>. Use Image from 'next/image' instead. See https://nextjs.org/docs/messages/no-img-element.",
+        "line": 18,
+        "column": 11,
+        "nodeType": "JSXOpeningElement",
+        "endLine": 18,
+        "endColumn": 75
+      }
+    ],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "import \"../styles/globals.css\";\n\nfunction App({ Component, pageProps }) {\n  return (\n    <div className=\"flex flex-col min-h-screen bg-main sm:before:blurred-ellipse\">\n      <main className=\"md:py-8 w-full relative flex-grow mx-auto overflow-x-hidden\">\n        <Component {...pageProps} />\n      </main>\n\n      <footer className=\"flex relative justify-center items-center w-full h-24 border-t\">\n        <a\n          className=\"flex justify-center items-center\"\n          href=\"https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          Powered by{\" \"}\n          <img src=\"/vercel.svg\" alt=\"Vercel Logo\" className=\"ml-2 h-4\" />\n        </a>\n      </footer>\n    </div>\n  );\n}\n\nexport default App;\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "/Users/chalosalvador/Desktop/front-end/src/pages/_document.js",
+    "messages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "/Users/chalosalvador/Desktop/front-end/src/pages/api/hello.js",
+    "messages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "/Users/chalosalvador/Desktop/front-end/src/pages/index.js",
+    "messages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  }
+]
