@@ -8,23 +8,25 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      sm: "600px",
+      md: "900px",
+      lg: "1200px",
+      xl: "1536px",
+    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
+      pink: "#ff75b7",
+      red: "#e84f5a",
+      green: "#54ffe0",
       black: colors.black,
       white: colors.white,
       gray: colors.trueGray,
-      green: "#54FFE0",
-      indigo: colors.indigo,
-      red: colors.rose,
-      yellow: colors.amber,
     },
     fontFamily: {
       idlewild: ["'Idlewild A', 'Idlewild B'"],
       inter: ["Inter"],
-    },
-    fontSize: {
-      tiny: "0.5rem",
     },
     gradientColorStops: () => ({
       primary: "#e14551",
@@ -33,6 +35,14 @@ module.exports = {
     extend: {
       backgroundImage: {
         main: "linear-gradient(305.47deg, #E14551 46.87%, #FF75B7 129.51%);",
+        "hero-image": "url('/images/bg-hero.png')",
+      },
+      fontSize: {
+        tiny: ".5rem",
+        sm: ".8125rem",
+      },
+      height: {
+        hero: "695px",
       },
     },
   },
