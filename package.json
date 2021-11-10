@@ -25,6 +25,6 @@
     "tailwindcss": "^2.2.4"
   },
   "lint-staged": {
-    "src/*": ["prettier --write --ignore-unknown", "eslint"]
+    "src/**/*": ["prettier --write --ignore-unknown", "eslint"]
   }
 }
