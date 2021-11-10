@@ -5,7 +5,7 @@ import Tag from "./Tag";
 
 const AiSection = () => {
   return (
-    <div className="flex flex-col items-end justify-center w-full h-hero bg-section2 bg-center bg-cover overflow-hidden relative">
+    <div className="flex flex-col items-end justify-center w-full bg-section2 bg-center bg-cover overflow-hidden relative py-36">
       <div>
         <div className="absolute top-40 -left-44">
           <Image src={shape} alt="PICLAB" width={1160} height={1112} />

@@ -47,6 +47,9 @@ module.exports = {
       height: {
         hero: "695px",
       },
+      width: {
+        card: "47%",
+      },
     },
   },
   variants: {

@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .scroll-x {
+    @apply flex flex-nowrap items-start overflow-auto w-full;
+  }
+
+  @variants responsive {
+    .scroll-x {
+      @apply flex flex-nowrap items-start overflow-auto w-full;
+    }
+  }
+}
+
 @layer utilities {
   .blurred-ellipse {
     --top: 85px;
@@ -18,5 +30,29 @@
     top: var(--top);
     left: 40%;
     border-radius: 50%;
+  }
+
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .line-clamp-2 {
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+  }
+
+  .line-clamp-3 {
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
   }
 }
