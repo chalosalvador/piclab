@@ -36,10 +36,13 @@ module.exports = {
       backgroundImage: {
         main: "linear-gradient(305.47deg, #E14551 46.87%, #FF75B7 129.51%);",
         "hero-image": "url('/images/bg-hero.png')",
+        section2: "url(/images/bg-section2.jpeg)",
       },
       fontSize: {
         tiny: ".5rem",
         sm: ".8125rem",
+        lg: "1.375rem",
+        xl: "1.875rem",
       },
       height: {
         hero: "695px",
