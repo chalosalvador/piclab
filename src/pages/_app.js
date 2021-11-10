@@ -2,8 +2,8 @@ import "../styles/globals.css";
 
 function App({ Component, pageProps }) {
   return (
-    <div className="flex flex-col min-h-screen bg-main sm:before:blurred-ellipse">
-      <main className="md:py-8 xl:container xl:mx-auto w-full relative flex-grow mx-auto overflow-x-hidden">
+    <div className="font-inter flex flex-col min-h-screen bg-main sm:before:blurred-ellipse">
+      <main className="md:py-8 2xl:container xl:mx-auto w-full relative flex-grow mx-auto overflow-x-hidden">
         <Component {...pageProps} />
       </main>
 
