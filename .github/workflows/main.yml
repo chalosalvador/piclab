@@ -6,9 +6,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install modules
-        run: yarn
+        run: npm
       - name: Run ESLint
-        run: yarn run eslint --output-file eslint_report.json --format json src
+        run: npm run eslint --output-file eslint_report.json --format json src
         continue-on-error: true
       - name: Annotate Code Linting Results
         uses: ataylorme/eslint-annotate-action@1.0.4
