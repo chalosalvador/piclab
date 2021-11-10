@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Hero from "components/Hero";
+import AiSection from "../components/AISection";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       </Head>
 
       <Hero />
+
+      <AiSection />
     </>
   );
 }
