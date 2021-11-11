@@ -58,7 +58,7 @@
     filter: blur(500px);
     transform: rotate(19.75deg) translateX(-40%);
     max-width: 480px;
-    min-width: 200px;
+    min-width: 180px;
     width: 40%;
     height: 1200px;
     max-height: calc(100% - var(--top));
