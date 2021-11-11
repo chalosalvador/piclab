@@ -47,9 +47,13 @@ module.exports = {
       },
       height: {
         hero: "695px",
+        210: "210px",
       },
       width: {
         card: "47%",
+      },
+      rotate: {
+        125: "-125deg",
       },
     },
   },

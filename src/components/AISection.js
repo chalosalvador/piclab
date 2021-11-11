@@ -26,6 +26,7 @@ const AiSection = () => {
           Let <span className="text-red">A.I.</span> handle lorem ipsum dolor
           sit.
         </div>
+
         <div className="text-center my-14">
           <Image src={ai} alt="AI" width={103} height={89} />
         </div>

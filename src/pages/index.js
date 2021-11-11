@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "components/Hero";
 import AiSection from "../components/AISection";
 import CardsSection from "../components/CardsSection";
+import NewsSection from "../components/NewsSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       <AiSection />
 
       <CardsSection />
+
+      <NewsSection />
     </>
   );
 }

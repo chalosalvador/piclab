@@ -23,7 +23,7 @@ const cards = [
 
 const CardsSection = () => {
   return (
-    <div className="flex flex-col items-center pt-20">
+    <div className="flex flex-col items-center pt-20 relative z-10">
       <div className="w-full sm:w-2/3 md:w-1/3 px-6">
         <h1 className="text-lg sm:text-xl text-white text-center">
           Why <span className="font-semibold">PicLab</span> is the perfect lorem
@@ -31,7 +31,7 @@ const CardsSection = () => {
         </h1>
       </div>
 
-      <div className="scroll-x no-scrollbar mt-20 px-8 md:px-14">
+      <div className="scroll-x no-scrollbar mt-20 padded-content">
         {cards.map((card) => (
           <Card key={card.title} content={card} />
         ))}
