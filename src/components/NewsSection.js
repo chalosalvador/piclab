@@ -26,7 +26,7 @@ const NewsSection = () => {
           <span className="font-semibold">News</span> lorem at PicLab
         </div>
 
-        <div className="w-96">
+        <div className="w-full sm:w-96">
           {news.map((item) => (
             <NewsItem key={item.title} content={item} />
           ))}
@@ -36,6 +36,7 @@ const NewsSection = () => {
       <div className="absolute top-80 -right-96 xl:-right-60 rotate-125 opacity-20 md:opacity-100 z-10">
         <Image src={shape} alt="PICLAB" width={1160} height={1112} />
       </div>
+
       <div className="hidden md:block">
         <div className="logo-stick-left" />
         <div className="logo-stick-middle" />
