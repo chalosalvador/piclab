@@ -53,6 +53,7 @@ module.exports = {
       },
       width: {
         card: "47%",
+        appbar: "98%",
       },
       rotate: {
         125: "-125deg",

@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+  .button {
+    @apply text-red font-semibold text-sm h-full px-3 sm:px-5;
+  }
   .scroll-x {
     @apply flex flex-nowrap items-start overflow-auto w-full;
   }

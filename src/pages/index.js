@@ -4,6 +4,7 @@ import AiSection from "../components/AISection";
 import CardsSection from "../components/CardsSection";
 import NewsSection from "../components/NewsSection";
 import SubscribeSection from "../components/SubscribeSection";
+import AppBar from "../components/AppBar";
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
       <NewsSection />
 
       <SubscribeSection />
+
+      <AppBar />
     </>
   );
 }
