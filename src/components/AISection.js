@@ -18,7 +18,7 @@ const AiSection = () => {
         <Tag text="Pencils" className="top-2/4 -left-10" />
       </div>
 
-      <div className="bg-white p-10 w-80 rounded-lg shadow-2xl relative mx-auto sm:mr-24">
+      <div className="bg-white p-10 w-72 sm:w-80 rounded-lg shadow-2xl relative mx-auto sm:mr-24">
         <div className="text-gray-400 text-tiny mb-3">
           Artificial Intelligence
         </div>

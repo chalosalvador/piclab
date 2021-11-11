@@ -3,6 +3,7 @@ import Hero from "components/Hero";
 import AiSection from "../components/AISection";
 import CardsSection from "../components/CardsSection";
 import NewsSection from "../components/NewsSection";
+import SubscribeSection from "../components/SubscribeSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
       <CardsSection />
 
       <NewsSection />
+
+      <SubscribeSection />
     </>
   );
 }
