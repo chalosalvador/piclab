@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Client } from "../../utils/prismicHelpers";
+import { Client } from "../utils/prismicHelpers";
 import AppBar from "../components/AppBar";
 import {
   HeroContent,
