@@ -1,0 +1,56 @@
+{
+  "id": "ai_section",
+  "type": "SharedSlice",
+  "name": "AiSection",
+  "description": "AiSection",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "AiSection",
+      "primary": {
+        "category": {
+          "config": {
+            "label": "Category",
+            "placeholder": "Category of the card",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Title of the card",
+            "allowTargetBlank": true,
+            "single": "heading1,strong"
+          }
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 103,
+              "height": 89
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Description of the card",
+            "allowTargetBlank": true,
+            "single": "paragraph,strong"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

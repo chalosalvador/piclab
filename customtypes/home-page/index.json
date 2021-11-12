@@ -1,0 +1,40 @@
+{
+  "id": "home-page",
+  "label": "Home Page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        },
+        "type": "UID"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "hero_content": {
+              "type": "SharedSlice"
+            },
+            "ai_section": {
+              "type": "SharedSlice"
+            },
+            "cards_section": {
+              "type": "SharedSlice"
+            },
+            "news_section": {
+              "type": "SharedSlice"
+            },
+            "subscribe_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

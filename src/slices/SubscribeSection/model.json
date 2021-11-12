@@ -1,0 +1,27 @@
+{
+  "id": "subscribe_section",
+  "type": "SharedSlice",
+  "name": "SubscribeSection",
+  "description": "SubscribeSection",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SubscribeSection",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1,strong"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
