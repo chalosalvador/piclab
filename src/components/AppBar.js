@@ -1,7 +1,6 @@
 import Image from "next/image";
 import RequestBetaInput from "./RequestBetaInput";
-import logo from "/public/images/logo-color.png";
-import React from "react";
+import logo from "/public/images/logo-color-large.png";
 
 const AppBar = () => {
   return (
