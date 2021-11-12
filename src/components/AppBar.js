@@ -14,7 +14,7 @@ const AppBar = () => {
 
       <div className="flex justify-end w-1/3">
         <button className="button">
-          <i className="fas fa-sign-in fa-lg mr-2" />
+          <i aria-hidden className="fas fa-sign-in fa-lg mr-2" />
           Sign In
         </button>
       </div>
