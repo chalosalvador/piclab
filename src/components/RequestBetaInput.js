@@ -1,5 +1,3 @@
-import React from "react";
-
 const RequestBetaInput = () => {
   return (
     <div className="flex items-center bg-white rounded-md border border-gray-200 h-12 pl-3 sm:pl-5 py-3 shadow">

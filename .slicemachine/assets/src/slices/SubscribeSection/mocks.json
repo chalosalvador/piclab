@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "subscribe_section",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Monetize out-of-the-box solutions",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

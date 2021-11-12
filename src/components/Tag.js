@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Tag = ({ text, className }) => {
   return (
     <div
@@ -6,6 +8,11 @@ const Tag = ({ text, className }) => {
       {text}
     </div>
   );
+};
+
+Tag.propTypes = {
+  text: PropTypes.string,
+  className: PropTypes.string,
 };
 
 export default Tag;

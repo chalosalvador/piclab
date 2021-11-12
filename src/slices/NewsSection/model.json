@@ -1,0 +1,44 @@
+{
+  "id": "news_section",
+  "type": "SharedSlice",
+  "name": "NewsSection",
+  "description": "NewsSection",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "NewsSection",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1,strong"
+          }
+        }
+      },
+      "items": {
+        "date": {
+          "config": {
+            "label": "Date",
+            "placeholder": ""
+          },
+          "type": "Date"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,strong,hyperlink,paragraph"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}
