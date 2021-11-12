@@ -16,7 +16,7 @@ const SubscribeSection = ({ slice }) => (
 SubscribeSection.propTypes = {
   slice: PropTypes.shape({
     primary: PropTypes.shape({
-      title: PropTypes.string,
+      title: PropTypes.array,
     }),
   }),
 };

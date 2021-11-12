@@ -1,7 +1,7 @@
 import { RichText } from "prismic-reactjs";
 import Image from "next/image";
 import PropTypes from "prop-types";
-import { imagePropType } from "../../../utils/propTypes";
+import { imagePropType } from "../../utils/propTypes";
 
 const HeroContent = ({ slice }) => {
   return (
