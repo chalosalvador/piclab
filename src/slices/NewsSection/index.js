@@ -4,13 +4,13 @@ import NewsItem from "components/NewsItem";
 import Image from "next/image";
 import shape from "/public/images/shape-section2.png";
 import PropTypes from "prop-types";
-import { calc, parallaxValues, setTranslation } from "utils/parallaxHelpers";
-import { useSpring, animated } from "react-spring";
+// import { calc, parallaxValues, setTranslation } from "utils/parallaxHelpers";
+// import { useSpring, animated } from "react-spring";
 
-const trans1 = setTranslation(40, -10);
+// const trans1 = setTranslation(40, -10);
 
 const NewsSection = ({ slice }) => {
-  const [props, set] = useSpring(parallaxValues);
+  // const [props, set] = useSpring(parallaxValues);
 
   return (
     <section
@@ -34,15 +34,15 @@ const NewsSection = ({ slice }) => {
 
       <div
         className="absolute w-full flex h-full"
-        onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
+        // onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
       >
-        <animated.div
+        <div
           className="will-change-transform absolute top-44 -right-96 xl:-right-60 rotate-125 opacity-20 md:opacity-100 z-10"
           //eslint-disable-next-line react/prop-types
-          style={{ transform: props.xy.to(trans1) }}
+          // style={{ transform: props.xy.to(trans1) }}
         >
           <Image src={shape} alt="PICLAB" width={1160} height={1112} />
-        </animated.div>
+        </div>
 
         <div
           className="hidden md:block"
