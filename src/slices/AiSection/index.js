@@ -23,7 +23,7 @@ const AiSection = ({ slice }) => {
         onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
       >
         <animated.div
-          className="absolute top-40 -left-44"
+          className="will-change-transform absolute top-40 -left-44"
           //eslint-disable-next-line react/prop-types
           style={{ transform: props.xy.to(trans4) }}
         >
