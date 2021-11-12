@@ -1,0 +1,67 @@
+{
+  "id": "hero_content",
+  "type": "SharedSlice",
+  "name": "HeroContent",
+  "description": "HeroContent",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroContent",
+      "primary": {
+        "tag": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tag",
+            "placeholder": "Tag to show above title",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Main title of the site",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink"
+          }
+        },
+        "legend": {
+          "config": {
+            "label": "Legend",
+            "placeholder": "Text below site title",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
+          },
+          "type": "StructuredText"
+        },
+        "logo": {
+          "config": {
+            "label": "logo",
+            "constraint": {
+              "width": 118,
+              "height": 40
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "bgHero": {
+          "config": {
+            "label": "bgHero",
+            "constraint": {
+              "width": 1252,
+              "height": 695
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

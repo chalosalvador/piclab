@@ -1,0 +1,66 @@
+{
+  "id": "cards_section",
+  "type": "SharedSlice",
+  "name": "CardsSection",
+  "description": "CardsSection",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CardsSection",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Title of the section",
+            "allowTargetBlank": true,
+            "single": "heading1,strong"
+          }
+        }
+      },
+      "items": {
+        "category": {
+          "config": {
+            "label": "Category",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,strong"
+          },
+          "type": "StructuredText"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,strong,hyperlink,em"
+          },
+          "type": "StructuredText"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 771,
+              "height": 420
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      }
+    }
+  ]
+}

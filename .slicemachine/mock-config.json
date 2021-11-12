@@ -1,0 +1,33 @@
+{
+  "slices": {
+    "Aaaa": {},
+    "HeroContent": {
+      "default-slice": {
+        "primary": {
+          "tag": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "title": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "legend": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "_cts": {
+    "home-page": {}
+  },
+  "src/slices": {}
+}
