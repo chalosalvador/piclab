@@ -1,7 +1,7 @@
 const RequestBetaInput = () => {
   return (
     <div className="flex items-center bg-white rounded-md border border-gray-200 h-12 pl-3 sm:pl-5 py-3 shadow">
-      <i className="far fa-envelope text-gray-500 pr-3 pt-1" />
+      <i aria-hidden className="far fa-envelope text-gray-500 pr-3 pt-1" />
       <input
         type="email"
         placeholder="Enter email"

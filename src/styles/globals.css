@@ -72,6 +72,10 @@
     @apply pl-8 md:pl-14 lg:pl-24;
   }
 
+  .will-change-transform {
+    will-change: transform;
+  }
+
   .blurred-ellipse {
     --top: 85px;
     content: "";

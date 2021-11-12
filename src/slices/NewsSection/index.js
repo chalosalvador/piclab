@@ -37,7 +37,7 @@ const NewsSection = ({ slice }) => {
         onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
       >
         <animated.div
-          className="absolute top-44 -right-96 xl:-right-60 rotate-125 opacity-20 md:opacity-100 z-10"
+          className="will-change-transform absolute top-44 -right-96 xl:-right-60 rotate-125 opacity-20 md:opacity-100 z-10"
           //eslint-disable-next-line react/prop-types
           style={{ transform: props.xy.to(trans1) }}
         >
